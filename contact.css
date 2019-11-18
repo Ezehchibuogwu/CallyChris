@@ -1,0 +1,32 @@
+body{
+ 	font-family: sans-serif;
+ }
+#red{
+	color: red;
+}
+
+input{
+	width: 100%;
+	margin-right: 0 auto;
+	float: left;
+	height: 100%;
+}
+
+.btn{
+	float: right;
+}
+
+textarea{
+	width: 100%;
+	height: 100%;
+}
+
+input:focus{
+	background-color: green;
+	border: 1px solid green;
+	outline: none;
+}
+
+label{
+	padding-top: 5px;
+}

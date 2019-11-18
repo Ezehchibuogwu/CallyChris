@@ -1,0 +1,308 @@
+ body{
+ 	font-family: sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+ }
+ .logo{
+ 	width: 200px;
+ 	position: relative;
+ }
+
+ .imgMain{
+  transition: all 4s;
+  animation: all educate; 
+ }
+
+.sweetLinks a:hover{
+  text-decoration: none;
+  color: darkorange;
+}
+/**/
+.imgma{
+  transition: all 0.3s ease-in-out;
+  max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+/*.nav-item{
+  position: relative;
+}*/
+ /*.social{
+  background-color: #e0e1e2;
+  padding-top: 10px;
+  align-content: center;
+  width: 246px;
+  height: 200px;
+ }*/
+ /*firsty{
+ 	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;*/
+
+ 
+ .divider-text {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #8392a5;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
+  letter-spacing: .5px;
+  margin: 15px 0; 
+}
+  .divider-text::before, .divider-text::after {
+    content: '';
+    display: block;
+    flex: 1;
+    height: 1px;
+    background-color: #e5e9f2;
+ }
+  .divider-text::before {
+    margin-right: 10px;
+ }
+  .divider-text::after {
+
+    margin-left: 10px; 
+}
+
+
+ .helpful{
+ 	background-color: black;
+ 	padding-bottom: 60px;
+ }
+
+ .imgMain{
+ 	transition: all 0.3s;
+ 	animation-name: fadeInLeftShort;
+ }
+
+ @media only screen and (max-width: 600px) {
+  .jane {
+    min-width: 50%;
+    margin-bottom: 30px;
+
+  }
+  .truthy{
+    padding-top: 30px;
+
+  }
+  .call{
+    width: 100%;
+    text-align: center;
+  }
+
+  .phone_no{
+    width: 100%;
+
+  }
+
+  .we{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+	.jane{
+		min-width: 50%;
+		margin-bottom: 30px;
+	} 
+
+  .truthy{
+    padding-top: 30px;
+
+  }
+  .call{
+    width: 100%;
+    text-align: center;
+  }
+
+  .phone_no{
+    width: 70%;
+
+    
+  }
+
+  .we{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .jane {
+    min-width: 50%;
+    margin-bottom: 30px;
+
+  }
+  .navbar{
+    min-width: 100%;
+  }
+
+  .truthy{
+    padding-top: 30px;
+
+  }
+  .call{
+    width: 100%;
+    text-align: center;
+  }
+
+  .phone_no{
+    width: 100%;
+    
+  }
+
+  .we{
+    text-align: center;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: darkorange;
+    padding: 10px;
+    font-size: large;
+    font-family: Roboto sans-serif;
+
+}
+
+.yellow{
+	background-color: #c2dbf5;
+  padding-bottom: 20px;
+
+}
+
+#readMore{
+  
+}
+
+#cent{
+  color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.Firsty{
+	background-color: darkorange;
+	color: rebeccapurple;
+}
+footer ul li a{
+  
+  color: white;
+  transition: all 0.3s ease-in-out;
+  padding-right: 10px;
+  margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #3a3a3a;
+
+}
+
+footer ul li{
+  list-style: none;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+
+
+.fade-carousel {
+    position: relative;
+    height: 75vh;
+    }
+
+footer ul, ol{
+  list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+footer ul li: before{
+  content: "\eb88";
+    font-family: IcoFont;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+.deve{
+	padding:20px;
+  background-color: #eef2f5;
+  text-align: center;
+  box-shadow: 5px 15px 20px 20px rgb(5 5 0 2.5)
+}
+
+.educate{
+  font-weight: 400;
+    color: #111;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.another{
+	text-align: center;
+	padding-top: 50px;
+	letter-spacing: 4px;
+
+}
+
+
+.academy{
+    color: darkorange;
+    font-size: 60px;
+    font-weight: 20px;
+    
+}
+
+.welcome{
+	margin-top: -5px;
+	font-weight: initial;
+	font-size: 50px;
+	color: #595959;
+  
+}
+
+
+#first{
+	text-align: justify;
+	color: #595959;
+  padding-left: 20px;
+  border-left: 2px solid darkorange;
+  
+}
+
+
+.ourTeam{
+	background-color: green;
+	font-size: 20px;
+	transition: 0.3;
+}
+
+
+.imgCol{
+  width: 100%;
+  height: 70%;
+}
+
+
+.imgCol:hover{
+  box-shadow: 0.5rem 0.5rem 1rem 0.7rem rgba(0, 0, 0, 0.15) ;
+  transition: 0.5s;
+  background-color: #1f1f1f;
+   animation:move 3s ease-out;
+  background-size: 50%;
+} 
+
+@keyframes move{
+0%{
+ transform: scale(1) rotate(0deg);
+}
+  100%{
+   transform: scale(2) rotate(0.1deg);
+
+  }
+
+}
